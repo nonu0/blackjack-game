@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+    font-size: 42px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 12px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 24rem;
+}
+h1{
+    color: goldenrod;
+}
+span{
+    display: grid;
+    justify-content: center;
+}
+button{
+    background: goldenrod;
+    color: green;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+/* @media   (min-width:200px) {
+    button{
+        background: rebeccapurple;
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+} */
